@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    font-family: poppins;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+.header {
+    width: 1923px;
+    height: 740px;
+    background-image: linear-gradient(#fff, rgba(35, 46, 209, 0.4));
+    align-items: center;
+}
+/*navigation bar*/
+.navbar {
+    display: flex;
+    width: 1420px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin-left: 172px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.navLinks > a {
+    margin-left: 33px;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    margin-left: 0px;
+}
+
+.container {
+    margin-right: 0px;
+}
+
+.cloneProjectButton {
+    height: 50px;
+    width: 165px;
+    border-radius: 5px;
+    border: 2px solid rgba(35, 46, 209, 0.4);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Banner*/
+.banner {
+    display: flex;
+    width: 1420px;
+    margin-top: 113px;
+}
+
+.title {
+    margin-left: 0px;
+    text-align: left;
+}
+
+.title > h2 {
+    font-size: 14px;
+    color: #232ED1;
+    margin-top: 0px;
+}
+
+.title > h1 {
+    color: #0D1317;
+    font-size: 64px;
+    text-align: left;
+    width: 671px;
+    height: 204px;
+    line-height: 68px;
+}
+.title > p {
+    color: #5B5B5B;
+    font-size: 18px;
+    line-height: 30px;
+    width: 513px;
+    height: 60px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 0px;
+}
+h4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow1 {
+    margin-left: 10px;
+}
+
+
+.image {
+    width: 1795px;
+    height: 440px;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+.blueSquare1 {
+    width: 24px;
+    height: 24px;
+    background-color: #232ED1;
+    border-radius: 0px 0px 8px 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.imgSketch {
+    width: 690px;
+    height: 440px;
+    background-image: url('sketch.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 24px;
+}
+
+.redSquare1 {
+    width: 40px;
+    height: 40px;
+    background-color: #F24C27;
+    border-radius: 8px 0px 0px 0px;
+    right: 0;
+    margin-top: 400px;
+    margin-left: 16px;
+}
+
+.secondSquareBanner {
+    width: 209px;
+    height: 130px;
+    display: flex;
+}
+
+.blueSquare2 {
+    width: 118.47px;
+    height: 130.31px;
+    background-color: #232ED1;
+    border-radius: 0px 0px 36px 0px;
+    margin-left: 0px;
+}
+
+.redSquare2 {
+    width: 75.03px;
+    height: 81.35px;
+    background-color: #F24C27;
+    border-radius: 0px 0px 16px 0px;
+    margin-right: 0px;
+}
+
+.btn {
+    margin-top: 48px;
+    display: flex;
+}
+.btn > button {
+    position: absolute;
+    height: 63px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gsffbtn {
+    background-color: #232ED1;
+    color: #fff;
+    font-size: 18px;
+    border: #232ED1;
+    width: 243px;
+    height: 63px;
+}
+
+.pbtn {
+    background-color: transparent;
+    margin-left: 290px;
+    border: transparent;
+    font-size: 18px;
+}
+
+
+/*Body*/
+
+.body{
+    width: 1920px;
+    height: 2463px;
+    align-items: center;
+}
+
+.featuredPosts {
+    width: 1420px;
+    height: 710px;
+    margin-top: 128px;
+}
+
+.fPosts{
+    font-size: 48px;
+}
+
+.aPosts{
+    font-size: 48px;
+    margin-top: 128px;
+}
+
+.post {
+    width: 1420px;
+    height: 579px;
+    display: flex;
+    margin-top: 89px;
+}
+
+.post > div {
+    width: 447px;
+    height: 579px;
+
+}
+
+.p1 {
+    margin-left: 0px;
+}
+
+
+.p3 {
+margin-right: 0px;
+}
+.post > div > div {
+    width: 447px;
+    height: 298px;
+}
+
+.post > div  > h1 {
+    font-size: 24px;
+    width: 395px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.post > div  > p {
+    font-size: 18px;
+    color: #5B5B5B;
+    margin-top: 32px;
+}
+
+.post > div  > h4 {
+    margin-top: 32px;
+}
+
+.f1 {
+    background-image: url('f1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    margin-left: 0px;
+}
+
+.f2 {
+    background-image: url('f2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f3 {
+    background-image: url('f3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f4 {
+    background-image: url('f4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f5 {
+    background-image: url('f5.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f6 {
+    background-image: url('f6.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f7 {
+    background-image: url('f7.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f8 {
+    background-image: url('f8.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.f9 {
+    background-image: url('sketch.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+
+/*Footer*/
+.footer {
+    width: 1920px;
+    height: 1015px;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+/*Get Started with Finsweet today*/
+
+.firstPartFooter {
+    width: 1920px;
+    height: 950px;
+    align-items: center;
+    position: relative;
+}
+
+.bannerFooter {
+    width: 1515px;
+    height: 304px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 202.5px;
+}
+
+.getStarted {
+    width: 1516px;
+    height: 304px;
+    margin-left: 250px;
+    bottom: 645px;
+    margin-top: 138px;
+    position: relative;
+    display: block;
+}
+.firstSqr {
+    background-color: #F24C27;
+    border-radius: 0px 0px 0px 12px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+}
+
+.secondSqr {
+    width: 1420px;
+    height: 304px;
+    background-color: #232ED1;
+    margin-left: 54px;
+    display: flex;
+    border-radius: 0px 12px 0px 12px;
+    align-self: center;
+}
+
+.secondSqr > h1 {
+    width: 460px;
+    height: 102px;
+    font-size: 48px;
+    color: #fff;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+.secondSqr > button{
+    width: 256px;
+    height: 72px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #F24C27;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 115px;
+    margin-right: 151px;
+}
+
+.thirdSqr {
+    background-color:#232ED1;
+    width: 16px;
+    height: 16px;
+    border-radius: 0px 0px 6px 0px;
+    margin-right: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.foot {
+    width: 1920px;
+    height: 795px;
+    background-color: #EFF0F8;
+    margin-top: 292px;
+}
+
+.contactFooter {
+    width: 1920px;
+    height: 795px;
+    background-color:#EFF0F8;
+    z-index: 1;
+    position: absolute;
+    margin-top: 155px;
+    margin-bottom: 75px;
+}
+
+.firstSideContact {
+    margin-top: 277px;
+    display: flex;
+    flex-direction: row;
+    width: 1420px;
+    height: 304px;
+}
+
+.logoFooter {
+    font-size: 36px;
+    font-weight: bold;
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+
+}
+
+.firstColumn {
+    width: 157px;
+    height: 228px;
+    margin-left: 0px;
+}
+
+.socialLogo {
+    margin-left: 0px;
+    font-size: 30px;
+    color: #5B5B5B;
+    text-align: left;
+}
+
+.secondColumn {
+    width: 111px;
+    height: 228px;
+    margin-right: 88px;
+}
+
+.secondColumn > h1 {
+    text-align: left;
+}
+
+.thirdColumn {
+    width: 140px;
+    height: 228px;
+    margin-right: 88px;
+}
+
+.thirdColumn > h1 {
+    text-align: left;
+}
+
+.fourthColumn {
+    width: 159px;
+    height: 228px;
+    margin-right: 0px;
+}
+
+.fourthColumn > h1 {
+    text-align: left;
+}
+
+.secondSideContact {
+    width: 1414px;
+    height: 89px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.secondSideContact > p {
+    margin-left: 0px;
+    font-size: 24px;
+    width: 386px;
+    height: 35px;
+    margin-top: 27px;
+}
+
+.smallerP {
+    margin-top: 60px;
+}
+
+.smallerP > p {
+    margin-bottom: 30px;
+    text-align: left;
+}
+.smallerP > p > a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+}
+
+input[type="text"] {
+    color: #000;
+    border: transparent;
+    width: 845px;
+    height: 89px;
+    font-size: 18px;
+    margin-right: 0px;
+    border-radius: 12px;
+
+}
+
+input[placeholder="Enter Your Email"] {
+    padding-left: 31px;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
+    border: transparent;
+}
+
+input[type="submit"] {
+    background-color: #F24C27;
+    color: #fff;
+    width: 325px;
+    height: 67px;
+    border: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute; 
+    bottom: 15%; 
+    right: 0;
+    z-index: 1;
+}
+
+.formtns {
+    position: relative;
+    width: 845px;
+    height: 92px;
+}
+
+
+/*Coppy Right*/
+.coppyright {
+    background-color: #232ED1;
+    color: #fff;
+    font-size: 18px;
+    width: 1920px;
+    height: 66px;
+    align-items: center;
+    display: flex;
+}
+
+.coppyright > p {
+    align-items: center;
+    text-align: center;
+}
