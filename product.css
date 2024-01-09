@@ -10,19 +10,23 @@
     background-image: linear-gradient(#fff, rgba(35, 46, 209, 0.4));
 }
 /*navigation bar*/
+.product > li{
+    font-weight: 600;
+    color: #232ED1;
+}
 .navbar {
     display: flex;
-    width: 1615px;
-    height: auto;
-    align-items: center;
-    text-align: center;
+    width: 1420px;
+    height: 60px;
     margin-top: 20px;
 }
 
 .navLinks {
     display: flex;
     list-style: none;
-    float: left;
+    margin-left: 172px;
+    position: absolute;
+    margin-top: 15px;
 }
 
 .navLinks > a {
@@ -38,14 +42,14 @@
     -moz-user-select: none !important;
     -webkit-touch-callout: none !important;
     -webkit-user-select: none !important;
+    margin-left: 0px;
 }
 
 .container {
-    text-align: right;
+    margin-right: 0px;
 }
 
 .cloneProjectButton {
-    float: right;   
     height: 50px;
     width: 165px;
     border-radius: 5px;
@@ -55,6 +59,7 @@
     background-color: transparent;
     cursor: pointer;
 }
+
 
 /* Banner*/
 .banner {

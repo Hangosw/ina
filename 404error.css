@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    font-family: poppins;
+    margin: 0 auto;
+}
+.header {
+    width: 1923px;
+    height: 900px;
+    align-items: center;
+    background: linear-gradient(180deg, #F4F5FC 0%, #E6E7FF 100%);
+}
+/*navigation bar*/
+
+.navbar {
+    display: flex;
+    width: 1420px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin-left: 172px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.navLinks > a {
+    margin-left: 33px;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    margin-left: 0px;
+}
+
+.container {
+    margin-right: 0px;
+}
+
+.cloneProjectButton {
+    height: 50px;
+    width: 165px;
+    border-radius: 5px;
+    border: 2px solid rgba(35, 46, 209, 0.4);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.body {
+    width: 378px;
+    height: 354px;
+    text-align: center;
+    margin-top: 189px;
+}
+
+.body > div {
+    width: 97px;
+    height: 54px;
+    display: flex;
+}
+
+.redsqr {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #F24C27;
+    margin-top: 22px;
+    margin-left: 0px;
+}
+
+.bluesqr {
+    width: 54px;
+    height: 54px;
+    border-radius: 0px 0px 8px 0px;
+    background-color: #232ED1;
+}
+
+.body > h2 {
+    font-size: 18px;
+    color: #232ED1;
+    margin-top: 32px;
+}
+
+.body > h1 {
+    letter-spacing: -1.44px;
+    font-size: 48px;
+    margin-top: 24px;
+}
+
+.body > p {
+    color: #5B5B5B;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.btn {
+    width: 205px;
+    height: 64px;
+    background-color: #F24C27;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 18px;
+    margin-top: 32px;
+}

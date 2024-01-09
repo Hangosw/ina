@@ -5,15 +5,10 @@
 }
 .header {
     width: 1923px;
-    height: 740px;
-    background-image: linear-gradient(#fff, rgba(35, 46, 209, 0.4));
+    height: 80px;
     align-items: center;
 }
 /*navigation bar*/
-.blog > li {
-    font-weight: 600;
-    color: #232ED1;
-}
 
 .navbar {
     display: flex;
@@ -61,271 +56,32 @@
     cursor: pointer;
 }
 
-/* Banner*/
-.banner {
-    display: flex;
-    width: 1420px;
-    margin-top: 113px;
-}
-
-.title {
-    margin-left: 0px;
-    text-align: left;
-}
-
-.title > h2 {
-    font-size: 14px;
-    color: #232ED1;
-    margin-top: 0px;
-}
-
-.title > h1 {
-    color: #0D1317;
-    font-size: 64px;
-    text-align: left;
-    width: 671px;
-    height: 204px;
-    line-height: 68px;
-}
-.title > p {
-    color: #5B5B5B;
-    font-size: 18px;
-    line-height: 30px;
-    width: 513px;
-    height: 60px;
-    margin-top: 30px;
-    text-align: left;
-    margin-left: 0px;
-}
-h4 {
-    display: flex;
-    flex-direction: row;
-    cursor: pointer;
-}
-
-.arrow1 {
-    margin-left: 10px;
-}
-
-
-.image {
-    width: 1795px;
-    height: 440px;
-    margin-top: 0px;
-    display: flex;
-    margin-left: 20px;
-    position: relative;
-}
-
-
-.blueSquare1 {
-    width: 24px;
-    height: 24px;
-    background-color: #232ED1;
-    border-radius: 0px 0px 8px 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-.imgSketch {
-    width: 690px;
-    height: 440px;
-    background-image: url('sketch.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-left: 24px;
-}
-
-.redSquare1 {
-    width: 40px;
-    height: 40px;
-    background-color: #F24C27;
-    border-radius: 8px 0px 0px 0px;
-    right: 0;
-    margin-top: 400px;
-    margin-left: 16px;
-}
-
-.secondSquareBanner {
-    width: 209px;
-    height: 130px;
-    display: flex;
-}
-
-.blueSquare2 {
-    width: 118.47px;
-    height: 130.31px;
-    background-color: #232ED1;
-    border-radius: 0px 0px 36px 0px;
-    margin-left: 0px;
-}
-
-.redSquare2 {
-    width: 75.03px;
-    height: 81.35px;
-    background-color: #F24C27;
-    border-radius: 0px 0px 16px 0px;
-    margin-right: 0px;
-}
-
-.btn {
-    margin-top: 48px;
-    display: flex;
-}
-.btn > button {
-    position: absolute;
-    height: 63px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.gsffbtn {
-    background-color: #232ED1;
-    color: #fff;
-    font-size: 18px;
-    border: #232ED1;
-    width: 243px;
-    height: 63px;
-}
-
-.pbtn {
-    background-color: transparent;
-    margin-left: 290px;
-    border: transparent;
-    font-size: 18px;
-}
-
-
-/*Body*/
-
-.body{
-    width: 1920px;
-    height: 2463px;
+/* body */
+.body {
+    width: 934px;
+    height: 1318px;
     align-items: center;
+    margin-top: 137px;
 }
 
-.featuredPosts {
-    width: 1420px;
-    height: 710px;
-    margin-top: 128px;
+.body > h1 {
+    font-size: 64px;
 }
 
-.fPosts{
+.body > p {
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.body > h2 {
+    margin-top: 40px;
     font-size: 48px;
 }
 
-.aPosts{
-    font-size: 48px;
-    margin-top: 128px;
-}
-
-.post {
-    width: 1420px;
-    height: 579px;
-    display: flex;
-    margin-top: 89px;
-}
-
-.post > div {
-    width: 447px;
-    height: 579px;
-
-}
-
-.p1 {
-    margin-left: 0px;
-}
-
-
-.p3 {
-margin-right: 0px;
-}
-.post > div > div {
-    width: 447px;
-    height: 298px;
-}
-
-.post > div  > h1 {
+.body > h3 {
     font-size: 24px;
-    width: 395px;
-    margin-left: 0px;
     margin-top: 40px;
 }
-
-.post > div  > p {
-    font-size: 18px;
-    color: #5B5B5B;
-    margin-top: 32px;
-}
-
-.post > div  > h4 {
-    margin-top: 32px;
-}
-
-.f1 {
-    background-image: url('f1.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-    margin-left: 0px;
-}
-
-.f2 {
-    background-image: url('f2.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f3 {
-    background-image: url('f3.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f4 {
-    background-image: url('f4.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f5 {
-    background-image: url('f5.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f6 {
-    background-image: url('f6.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f7 {
-    background-image: url('f7.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f8 {
-    background-image: url('f8.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
-.f9 {
-    background-image: url('sketch.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 6px;
-}
-
 
 /*Footer*/
 .footer {
